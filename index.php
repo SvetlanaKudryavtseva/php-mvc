@@ -3,7 +3,7 @@ require_once('Routes.php');
 // include('./classes/Route.php');
 
 // __autoload is depricated, change it to spl_autoload_register
-unction __autoload($class_name) {
+function __autoload($class_name) {
         require_once './classes/' . $class_name . '.php';
     };
 
