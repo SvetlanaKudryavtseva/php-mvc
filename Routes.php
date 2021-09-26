@@ -2,12 +2,12 @@
 // echo 'routes';
 
 Route::set('about', function (){
-    echo "about";
+    About::CreateView();
 });
 
 
 Route::set('contact', function (){
-    echo "contact";
+    Contact::CreateView();
 });
 
 ?>
